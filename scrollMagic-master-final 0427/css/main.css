@@ -1,0 +1,622 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== ScrollMagic Class ==============================================
+   Author: Petr Tichy - ihatetomatoes.net
+   ========================================================================== */
+
+
+body {
+    font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 1000%;
+    margin: 0 5%;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* =Main */
+#intro {
+    height: 100vh;
+    color: cornsilk;
+}
+
+body .intro .footer-container {
+    display: none;
+}
+
+
+svg:hover{
+    fill: cornsilk;
+}
+#intro .content {
+    position: absolute;
+    text-align: center;
+    top: 20%; /*50%*/
+    left: 50%;
+    font-size: 20px;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+#intro img {
+    width: 100%;
+    margin: 0 auto;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project {
+    text-align: center;
+    background-color: white;
+    padding: 50px; /*200px 0*/
+    border-bottom: 1px #ebebeb solid;
+    opacity:1; /*0*/
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+.project.fade-in {
+    opacity:1;
+    transform: translateY(0);
+    /* transform: scale(2); */
+}
+.project p {
+    text-align: left;
+    max-width: 100%;
+    padding: 50%;
+    color: black;
+}
+/*----------------------------------------------PROJECT 01---------------------------*/
+.project01 {
+    text-align: center;
+    background-color: white;
+    padding: 50px; /*200px 0*/
+    border-bottom: 1px #ebebeb solid;
+    opacity:1; /*0*/
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+
+#project01 h2 {
+    color: black;
+}
+#project01 p {
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    width: 50%;
+    margin-bottom: 100px;
+}
+#project01
+    .son:link, .son:visited {
+        width: 195px;
+        height: 250px;
+        background-image: url(/img/son_ptr1.png);
+        padding: none;
+        margin: 0 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+#project01
+    .son:hover, .son:active {
+        background-image: url(/img/son_ptr2.png);
+    }
+
+#project01
+    .park:link, .park:visited {
+        width: 195px;
+        height: 250px;
+        background-image: url(/img/park_ptr1.png);
+        padding: none;
+        margin: 0 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+#project01
+    .park:hover, .park:active {
+        background-image: url(/img/park_ptr2.png);
+    }
+
+#project01
+    .na:link, .na:visited {
+        width: 195px;
+        height: 250px;
+        background-image: url(/img/na_ptr1.png);
+        padding: none;
+        margin: 0 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+#project01
+    .na:hover, .na:active {
+        background-image: url(/img/na_ptr2.png);
+    }
+    
+#project01
+    .ka:link, .ka:visited {
+        width: 195px;
+        height: 250px;
+        background-image: url(/img/ka_ptr1.png);
+        padding: none;
+        margin: 0 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+#project01
+    .ka:hover, .ka:active {
+        background-image: url(/img/ka_ptr2.png);
+    } 
+/*----------------------------------------------------PROJECT 02----------------*/
+.project02 {
+    position: relative;
+    text-align: center;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    padding: 150px; /*200px 0*/
+    border-bottom: 1px #ebebeb solid;
+    opacity:1; /*0*/
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+    
+}
+@media only screen and (max-width: 600px) {
+    .project02 {
+      background-color: lightblue;
+    }
+  }
+
+#project02 img {
+    border: none;
+    width: 60%;
+    height: auto;
+    margin-left: -15%;
+    z-index: -1;
+}
+.project02-content {
+    position: absolute;
+    text-align: left;
+    margin-left: 53.5%;
+    margin-top: 8%;
+}
+
+#project02 h2 {
+    line-height: 20%;
+    color: rgb(255, 49, 83)
+}
+#project02 p {
+    margin-top: -5%;
+    font-size: 35px;
+    color: black;
+}
+/*----------------------------------------------------PROJECT 03-------------------*/
+.project03 {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/img/bg.png);
+    padding: 150px 0; /*200px 0*/
+    border-bottom: 1px #ebebeb solid;
+    opacity:1; /*0*/
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+.project03-img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    width: 18%;
+}
+.project03-content {
+    background-color:none;
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 20vw;
+}
+#project03 h2 {
+    text-align: left;
+    color: #f4b572;
+    font-size: 2vw;
+}
+#project03 p {
+    font-size: 0.9vw;
+    color: rgb(0, 0, 0);
+}
+
+/*------------------------------------------PROJECT 04-----------------------------*/
+.project04 {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    padding: 150px 0; /*200px 0*/
+    border-bottom: 1px #ebebeb solid;
+    opacity:1; /*0*/
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+.project04-content {
+    background-color:none;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    margin-top: -5%;
+    margin-left: 29vw ;
+    width: 30%;
+}
+#project04 h2 {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    color: orange;
+    margin-top: -5%;
+    margin-left: -5%;
+    font-size: 2vw;
+}
+#project04 img {
+    border: 2px solid #f4b572;
+    margin: 0 auto;
+    width: 50%;
+}
+/*----------------------------------------------------PROJECT 02-2----------------*/
+.project02-2 {
+    position: relative;
+    text-align: center;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    padding: 150px; /*200px 0*/
+    border-bottom: 1px #ebebeb solid;
+    opacity:1; /*0*/
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+@media only screen and (max-width: 600px) {
+    .project02 {
+      background-color: lightblue;
+    }
+  }
+  
+#project02-2 img {
+    border: none;
+    width: 60%;
+    height: auto;
+    margin-left: -15%;
+    z-index: -1;
+}
+.project02-2-content {
+    position: absolute;
+    text-align: left;
+    margin-left: 57.5%;
+    margin-top: 8%;
+}
+
+#project02-2 h2 {
+    line-height: 20%;
+    color: rgb(255, 49, 83)
+}
+#project02-2 p {
+    margin-top: -5%;
+    font-size: 35px;
+    color: black;
+}
+/*----------------------------------------------------PROJECT 03-------------------*/
+.project03-2 {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/img/bg2.png);
+    padding: 150px 0; /*200px 0*/
+    border-bottom: 1px #ebebeb solid;
+    opacity:1; /*0*/
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+.project03-2-img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    width: 18%;
+}
+.project03-2-content {
+    background-color: none;
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 20vw;
+}
+#project03-2 h2 {
+    text-align: left;
+    color: #f4b572;
+    font-size: 2vw;
+}
+#project03-2 p {
+    font-size: 0.9vw;
+    color: rgb(0, 0, 0);
+}
+/*---------------------------------------------------------------------------------*/
+#main {
+    position: relative;
+    background-color:#FFF;
+}
+/*---------------------------------------------------------------------------------*/
+button {
+    width: 195px;
+    height: 250px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+/*---------------------------------------------------------------------------------*/
+/* --------------------------------------------=Footer ----------------------------*/
+.footer-container {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(255, 49, 83); 
+}
+
+
+.footer-container .wrapper {
+    width: 90%; /*80%*/
+    background-color: none;
+    margin: 0 auto; /*0 10%*/ 
+}
+.footer-container h3 {
+    margin: 0;
+    padding: 40px 0px;
+    font-weight: normal; 
+}
+.footer-container a {
+    color: rgba(255, 255, 255, 0.5); 
+}
+#footer-container
+    a:link, a:visited {
+        width: 15%;
+        height: 5%;
+        background-color: transparent;
+        color: white;
+        padding: 15px;
+        /*margin: 0 50px;*/
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+#footer-container
+    a:hover, a:active {
+        background-color: transparent;
+    }
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 768px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 1140px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
